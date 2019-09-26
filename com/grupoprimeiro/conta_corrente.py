@@ -13,11 +13,3 @@ class ContaCorrente:
 
     def saque(self, valor):
         self.saldo -= valor
-
-# TESTE DA CLASSE
-
-conta = ContaCorrente(100, 'Tales')
-conta.deposito(100)
-print conta.saldo
-conta.saque(200)
-print conta.saldo
